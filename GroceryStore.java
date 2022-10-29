@@ -10,25 +10,25 @@ public class GroceryStore {
 		 *Elma : 3,67 TL
 		 *Domates : 1,11 TL
 		 *Muz: 0,95 TL
-		 *Patlýcan : 5,00 TL
+		 *PatlÃ½can : 5,00 TL
 		 */
-		int armut, elma, domates, muz, patlican;
-		double total, armutPrice = 2.14, elmaPrice = 3.67, domatesPrice = 1.11, muzPrice = 0.95, patlicanPrice = 5.0;
+		int pear, apple, tomato, banana, aubergine; //Created variables for kg
+		double total, pearPrice = 2.14, applePrice = 3.67, tomatoPrice = 1.11, bananaPrice = 0.95, auberginePrice = 5.0; //prices of fruits
 		
-		Scanner scan = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in); //created scanner for input from user
 		System.out.print("Armut kg girin: ");
-		armut = scan.nextInt();
+		pear = scan.nextInt(); //scanning
 		System.out.print("Elma kg girin: ");
-		elma = scan.nextInt();
+		apple = scan.nextInt();
 		System.out.print("Domates kg girin: ");
-		domates = scan.nextInt();
+		tomato = scan.nextInt();
 		System.out.print("Muz kg girin: ");
-		muz = scan.nextInt();
-		System.out.print("Patlýcan kg girin: ");
-		patlican = scan.nextInt();
+		banana = scan.nextInt();
+		System.out.print("PatlÃ½can kg girin: ");
+		aubergine = scan.nextInt();
 
-		total = (armut * armutPrice) + (elma * elmaPrice) + (domates * domatesPrice) + (muz * muzPrice) + (patlican * patlicanPrice);
-		System.out.println("Toplam Tutar: " + total + " TL");
+		total = (pear * pearPrice) + (apple * applePrice) + (tomato * tomatoPrice) + (banana * bananaPrice) + (aubergine * auberginePrice); // total price calculating
+		System.out.println("Toplam Tutar: " + total + " TL"); //output of total price of buying fruits by user
 	}
 
 }
