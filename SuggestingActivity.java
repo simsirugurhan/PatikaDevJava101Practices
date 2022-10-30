@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class SuggestingActivity {
 
 	public static void main(String[] args) {
-		// Sıcaklık 5'dan küçük ise "Kayak" yapmayı öner.
-		// Sıcaklık 5 ve 15 arasında ise "Sinema" etkinliğini öner.
-		// Sıcaklık 15 ve 25 arasında ise "Piknik" etkinliğini öner. => Burada 10
-		// vermeliydi sanırım fakat 15 girilmiş ödevde, verilene göre yapıldı.
-		// Sıcaklık 25'ten büyük ise "Yüzme" etkinliğini öner.
+		// SÄ±caklÄ±k 5'dan kÃ¼Ã§Ã¼k ise "Kayak" yapmayÄ± Ã¶ner.
+		// SÄ±caklÄ±k 5 ve 15 arasÄ±nda ise "Sinema" etkinliÄŸini Ã¶ner.
+		// SÄ±caklÄ±k 15 ve 25 arasÄ±nda ise "Piknik" etkinliÄŸini Ã¶ner. => Burada 10
+		// vermeliydi sanÄ±rÄ±m fakat 15 girilmiÅŸ Ã¶devde, verilene gÃ¶re yapÄ±ldÄ±.
+		// SÄ±caklÄ±k 25'ten bÃ¼yÃ¼k ise "YÃ¼zme" etkinliÄŸini Ã¶ner.
 
 		int temperature; // variable of air temperature degree
 
 		Scanner scan = new Scanner(System.in); // created scanner
 
-		System.out.println("Hava sıcaklığı: "); // input air temperature degree
+		System.out.print("Hava sÄ±caklÄ±ÄŸÄ±: "); // input air temperature degree
 		temperature = scan.nextInt(); // air temperature degree assigned to the variable
 
 		//controls
@@ -26,7 +26,7 @@ public class SuggestingActivity {
 		} else if (temperature < 25 && temperature >= 15) {
 			System.out.println("Piknik yapabilirsin.");
 		} else {
-			System.out.println("Yüzebilirsin");
+			System.out.println("YÃ¼zebilirsin");
 		}
 
 	}
