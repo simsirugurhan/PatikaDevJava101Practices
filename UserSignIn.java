@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class UserSignIn {
 
 	public static void main(String[] args) {
-		// Eðer þifre yanlýþ ise kullanýcýya þifresini sýfýrlayýp
-		// sýfýrlamayacaðýný sorun, eðer kullanýcý sýfýrlamak isterse yeni girdiði
-		// þifrenin hatalý girdiði ve unuttuðu þifre ile ayný olmamasý gerektiðini
-		// kontrol edip , þifreler ayný ise ekrana "Þifre oluþturulamadý, lütfen baþka
-		// þifre giriniz." sorun yoksa "Þifre oluþturuldu" yazan programý yazýnýz.
+		// EÃ°er Ã¾ifre yanlÃ½Ã¾ ise kullanÃ½cÃ½ya Ã¾ifresini sÃ½fÃ½rlayÃ½p
+		// sÃ½fÃ½rlamayacaÃ°Ã½nÃ½ sorun, eÃ°er kullanÃ½cÃ½ sÃ½fÃ½rlamak isterse yeni girdiÃ°i
+		// Ã¾ifrenin hatalÃ½ girdiÃ°i ve unuttuÃ°u Ã¾ifre ile aynÃ½ olmamasÃ½ gerektiÃ°ini
+		// kontrol edip , Ã¾ifreler aynÃ½ ise ekrana "Ãžifre oluÃ¾turulamadÃ½, lÃ¼tfen baÃ¾ka
+		// Ã¾ifre giriniz." sorun yoksa "Ãžifre oluÃ¾turuldu" yazan programÃ½ yazÃ½nÃ½z.
 
 		String userName, password, userPassword = "e-bebek";
 
 		Scanner scan = new Scanner(System.in);
 
-		System.out.print("Kullanýcý Adý: "); // input user name
+		System.out.print("KullanÃ½cÃ½ AdÃ½: "); // input user name
 		userName = scan.nextLine(); // user name assigned to the variable
 
 		System.out.print("Parola: "); // input password
@@ -24,10 +24,11 @@ public class UserSignIn {
 		// default userName = patika.dev
 
 		if (userName.equals("patika.dev") && password.equals(userPassword)) {
-			System.out.println("giriþ yapýldý!"); // successful signing
+			System.out.println("giriÃ¾ yapÃ½ldÃ½!"); // successful signing
 
 		} else if (userName.equals("patika.dev") && !password.equals(userPassword)) {
-			System.out.println("Parolaný deðiþtirmek ister misin?[E => Evet, H => Hayýr]: "); // asked reset your
+			//if user name correct but password is not correct
+			System.out.println("ParolanÃ½ deÃ°iÃ¾tirmek ister misin?[E => Evet, H => HayÃ½r]: "); // asked reset your
 																								// password [E => yes, H
 																								// => no]
 			String controller = scan.nextLine(); // controller assigned to the variable
@@ -38,14 +39,14 @@ public class UserSignIn {
 				String newPassword = scan.nextLine(); // new password assigned to the variable
 
 				System.out
-						.println(newPassword.equals(userPassword) ? "Þifre oluþturulamadý, lütfen baþka þifre giriniz."
-								: "Þifre oluþturuldu!");
+						.println(newPassword.equals(userPassword) ? "Ãžifre oluÃ¾turulamadÃ½, lÃ¼tfen baÃ¾ka Ã¾ifre giriniz."
+								: "Ãžifre oluÃ¾turuldu!");
 				// Write failed if the new password is the same as the old password.
 				// Write successful if the new password is not the same as the old password.
 			}
 
 		} else {
-			System.out.println("böyle bir kullanýcý bulunamadý!");
+			System.out.println("bÃ¶yle bir kullanÃ½cÃ½ bulunamadÃ½!");
 			// Write there is no user if user name and password is not correct.
 		}
 	}
