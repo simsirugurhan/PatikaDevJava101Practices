@@ -5,44 +5,45 @@ import java.util.Scanner;
 public class FindHoroscope {
 
 	public static void main(String[] args) {
-		// Koç Burcu : 21 Mart - 20 Nisan
-		// Boða Burcu : 21 Nisan - 21 Mayýs
-		// Ýkizler Burcu : 22 Mayýs - 22 Haziran
-		// Yengeç Burcu : 23 Haziran - 22 Temmuz
-		// Aslan Burcu : 23 Temmuz - 22 Aðustos
-		// Baþak Burcu : 23 Aðustos - 22 Eylül
-		// Terazi Burcu : 23 Eylül - 22 Ekim
-		// Akrep Burcu : 23 Ekim - 21 Kasým
-		// Yay Burcu : 22 Kasým - 21 Aralýk
-		// Oðlak Burcu : 22 Aralýk - 21 Ocak
-		// Kova Burcu : 22 Ocak - 19 Þubat
-		// Balýk Burcu : 20 Þubat - 20 Mart
+		// KoÃ§ Burcu : 21 Mart - 20 Nisan
+		// BoÄŸa Burcu : 21 Nisan - 21 MayÄ±s
+		// Ä°kizler Burcu : 22 MayÄ±s - 22 Haziran
+		// YengeÃ§ Burcu : 23 Haziran - 22 Temmuz
+		// Aslan Burcu : 23 Temmuz - 22 AÄŸustos
+		// BaÅŸak Burcu : 23 AÄŸustos - 22 EylÃ¼l
+		// Terazi Burcu : 23 EylÃ¼l - 22 Ekim
+		// Akrep Burcu : 23 Ekim - 21 KasÄ±m
+		// Yay Burcu : 22 KasÄ±m - 21 AralÄ±k
+		// OÄŸlak Burcu : 22 AralÄ±k - 21 Ocak
+		// Kova Burcu : 22 Ocak - 19 Åžubat
+		// BalÄ±k Burcu : 20 Åžubat - 20 Mart
 
 		int day, month; // variables of day and month
 
 		Scanner scan = new Scanner(System.in); // created scanner
 
-		System.out.print("Doðduðunuz gününüz: "); // input day
+		System.out.print("DoÄŸduÄŸunuz gÃ¼nÃ¼nÃ¼z: "); // input day
 		day = scan.nextInt(); // day assigned to the variable
 		day = (day > 0 || day < 32) ? day : -1; // day must be between 0 - 32
 		
-		System.out.print("Doðduðunuz ay: ");
+		System.out.print("DoÄŸduÄŸunuz ay: ");
 		month = scan.nextInt();
 		month = (month > 0 || month < 13) ? month : -1; // month must be between 0 - 13
 		
+		//controls
 		if (day > 0 && month > 0) {
 			if ((day >= 21 && month == 3) || (day <= 20 && month == 4)) {
-				System.out.println("Koç burcusunuz.");
+				System.out.println("KoÃ§ burcusunuz.");
 			} else if ((day >= 21 && month == 4) || (day <= 21 && month == 5)) {
-				System.out.println("Boða burcusunuz.");
+				System.out.println("BoÄŸa burcusunuz.");
 			} else if ((day >= 22 && month == 5) || (day <= 22 && month == 6)) {
-				System.out.println("Ýkizler burcusunuz.");
+				System.out.println("Ä°kizler burcusunuz.");
 			} else if ((day >= 23 && month == 6) || (day <= 22 && month == 7)) {
-				System.out.println("Yengeç burcusunuz.");
+				System.out.println("YengeÃ§ burcusunuz.");
 			} else if ((day >= 23 && month == 7) || (day <= 22 && month == 8)) {
 				System.out.println("Aslan burcusunuz.");
 			} else if ((day >= 23 && month == 8) || (day <= 22 && month == 9)) {
-				System.out.println("Baþak burcusunuz.");
+				System.out.println("BaÅŸak burcusunuz.");
 			} else if ((day >= 23 && month == 9) || (day <= 22 && month == 10)) {
 				System.out.println("Terazi burcusunuz.");
 			} else if ((day >= 23 && month == 10) || (day <= 21 && month == 11)) {
@@ -50,18 +51,18 @@ public class FindHoroscope {
 			} else if ((day >= 22 && month == 11) || (day <= 21 && month == 12)) {
 				System.out.println("Yay burcusunuz.");
 			} else if ((day >= 22 && month == 12) || (day <= 21 && month == 1)) {
-				System.out.println("Oðlak burcusunuz.");
+				System.out.println("OÄŸlak burcusunuz.");
 			} else if ((day >= 22 && month == 1) || (day <= 19 && month == 2)) {
 				System.out.println("Kova burcusunuz.");
 			} else if ((day >= 20 && month == 2) || (day <= 20 && month == 3)) {
-				System.out.println("Balýk burcusunuz.");
+				System.out.println("BalÄ±k burcusunuz.");
 			}
 		} else if (day == -1) {
-			System.out.println("Geçerli gün giriniz!");
+			System.out.println("GeÃ§erli gÃ¼n giriniz!");
 		} else if (month == -1) {
-			System.out.println("Geçerli gün giriniz!");
+			System.out.println("GeÃ§erli gÃ¼n giriniz!");
 		} else {
-			System.out.println("Geçerli tarih aralýðý giriniz!");
+			System.out.println("GeÃ§erli tarih aralÄ±ÄŸÄ± giriniz!");
 		}
 
 	}
