@@ -5,28 +5,31 @@ import java.util.Scanner;
 public class FindLeapYear {
 
 	public static void main(String[] args) {
-		// Genel bir kural olarak, artık yıllar 4 rakamının katı olan yıllardır:
+		// Genel bir kural olarak, artÄ±k yÄ±llar 4 rakamÄ±nÄ±n katÄ± olan yÄ±llardÄ±r:
 		// 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024 gibi.
-		// 100'ün katı olan yıllardan sadece 400'e kalansız olarak bölünebilenler artık
-		// yıldır:
-		// Örneğin 1200, 1600, 2000 yılları artık yıldır ancak 1700, 1800 ve 1900 artık
-		// yıl değildir.
-		// Sadece 400'e tam olarak bölünebilenlerin artık yıl kabul edilmesinin nedeni,
-		// bir astronomik yılın 365,25 gün değil, yaklaşık olarak 365,242 gün olmasından
-		// kaynaklanan hatayı gidermektir.
+		// 100'Ã¼n katÄ± olan yÄ±llardan sadece 400'e kalansÄ±z olarak bÃ¶lÃ¼nebilenler artÄ±k
+		// yÄ±ldÄ±r:
+		// Ã–rneÄŸin 1200, 1600, 2000 yÄ±llarÄ± artÄ±k yÄ±ldÄ±r ancak 1700, 1800 ve 1900 artÄ±k
+		// yÄ±l deÄŸildir.
+		// Sadece 400'e tam olarak bÃ¶lÃ¼nebilenlerin artÄ±k yÄ±l kabul edilmesinin nedeni,
+		// bir astronomik yÄ±lÄ±n 365,25 gÃ¼n deÄŸil, yaklaÅŸÄ±k olarak 365,242 gÃ¼n olmasÄ±ndan
+		// kaynaklanan hatayÄ± gidermektir.
 
 		int year; // variable of year
 
 		Scanner scan = new Scanner(System.in); // created scanner
 
-		System.out.print("Doğum yılı girin: "); // input year
+		System.out.print("DoÄŸum yÄ±lÄ± girin: "); // input year
 		year = scan.nextInt(); // year assigned to the variable
 
 		// controls
-		if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
-			System.out.println(year + " bir artık yıldır!");
-		} else {
-			System.out.println(year + " bir artık yıldır değildir!"); // error of data
+		if (year % 4 == 0 && year % 100 != 0) {
+			System.out.println(year + " bir artÄ±k yÄ±ldÄ±r!");
+		}else if(year%100==0 && year%400==0){
+            		System.out.println(year + " bir artÄ±k yÄ±ldÄ±r!");
+		}
+		else {
+			System.out.println(year + " bir artÄ±k yÄ±ldÄ±r deÄŸildir!"); // error of data
 		}
 
 	}
