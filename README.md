@@ -1,6 +1,7 @@
 # PatikaDevJava101Practices
 This folder created for Patika.dev Java101 practices.
---- (If you came here from Ebebek Java & Sap & Qa Spartacus Practium by Patika.dev;)
+--- 
+(If you came here from Ebebek Java & Sap & Qa Spartacus Practium by Patika.dev;)
 - Week 1
   1. (For the Body Mass index program, see "BodyMassIndex.java".) [body-mass-index](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/BodyMassIndex.java)
   2. (For the Grocery Store program, see "GroceryStore.java".) [grocery-store](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GroceryStore.java)
