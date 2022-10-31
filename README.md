@@ -13,7 +13,7 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
 - Hafta 1
   1. Vücut Kitle indeksi programı için "BodyMassIndex.java" bakınız.[vücut kitle indeksi](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/BodyMassIndex.java)
   2. Manas Kasa programı için "GroceryStore.java" bakınız.  [manav kasa](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GroceryStore.java)
--Hafta 2
+- Hafta 2
   1. Uçak Bileti Fiyatı Hesaplama programı için "FlightTicketPriceCalculator.java" bakınz. [uçak bileti fiyatı hesaplama] (https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FlightTicketPriceCalculator.java)
   2. Çin Zodyağı Hesaplama programı için "CalculatorChineseZodiac.java" bakınız. [çin zodyağı hesaplama] (https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CalculatorChineseZodiac.java)
   3. Artık Yıl Hesaplama programı için "FindLeapYear.java" bakınız. [artık yıl hesaplama] (https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FindLeapYear.java)
