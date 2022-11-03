@@ -11,6 +11,7 @@ This folder created for Patika.dev Java101 practices.
   3. (For the Find Leap Year program, see "FindLeapYear.java".) [find-leap-year](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FindLeapYear.java)
 - Week 3
   1. (For the MIN And MAX Calculator program, see "GreaterAndLesserNumber.java".) [min-and-max-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java)
+  2. (For the Perfect Number Calculator progtam, see "PerfectNumber.java".) [perfect-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PerfectNumber.java)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
@@ -22,3 +23,5 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
   3. Artık Yıl Hesaplama programı için "FindLeapYear.java" bakınız. [artık yıl hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FindLeapYear.java)
 - Hafta 3
   1. En Büyük Ve En Küçük Sayı Hesaplama programı için "GreaterAndLesserNumber.java" bakınız. [en büyük ve en küçük sayıyı hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java) 
+  2. Mükemmel Sayı Hesaplama programı için "PerfectNumber.java" bakınız. [mükemmel sayı hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PerfectNumber.java)
+ 
