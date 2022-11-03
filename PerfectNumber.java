@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class PerfectNumber {
 
 	public static void main(String[] args) {
-		// Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan ve sayı
-		// mükemmel sayı ise ekrana “mükemmel sayıdır.” değilse “mükemmel sayı
-		// değildir.” ifadelerini ekrana yazan programı Java dilinde yazınız.
-		// Bir sayının kendisi hariç pozitif tam sayı çarpanları (kalansız bölen
-		// sayıların) toplamı kendisine eşit olan sayıya mükemmel sayı denir.
+		// Klavyeden girilen bir sayÄ±nÄ±n mÃ¼kemmel sayÄ± olup/olmadÄ±ÄŸÄ±nÄ± bulan ve sayÄ±
+		// mÃ¼kemmel sayÄ± ise ekrana â€œmÃ¼kemmel sayÄ±dÄ±r.â€ deÄŸilse â€œmÃ¼kemmel sayÄ±
+		// deÄŸildir.â€ ifadelerini ekrana yazan programÄ± Java dilinde yazÄ±nÄ±z.
+		// Bir sayÄ±nÄ±n kendisi hariÃ§ pozitif tam sayÄ± Ã§arpanlarÄ± (kalansÄ±z bÃ¶len
+		// sayÄ±larÄ±n) toplamÄ± kendisine eÅŸit olan sayÄ±ya mÃ¼kemmel sayÄ± denir.
 
-		int total = 0, number; // variables of count number, greater and lesser
-								// number, number
+		int total = 0, number; // variables of total and number
 
 		Scanner scan = new Scanner(System.in); // created scanner
 
-		System.out.print("Sayı giriniz: "); // input number
+		System.out.print("SayÄ± giriniz: "); // input number
 		number = scan.nextInt(); // number assigned to the variable
 
 		// loop and control
@@ -28,9 +27,9 @@ public class PerfectNumber {
 
 		// control and printed
 		if (number == total) {
-			System.out.println(number + " : Mükemmel sayıdır.");
+			System.out.println(number + " : MÃ¼kemmel sayÄ±dÄ±r.");
 		} else {
-			System.out.println(number + " : Mükemmel sayı değildir. ");
+			System.out.println(number + " : MÃ¼kemmel sayÄ± deÄŸildir. ");
 		}
 
 	}
