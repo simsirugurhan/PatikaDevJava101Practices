@@ -10,7 +10,7 @@ This folder created for Patika.dev Java101 practices.
   2. (For the Calculator Chinese Zodiac program, see "CalculatorChineseZodiac.java".) [calculator-chinese-zodiac](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CalculatorChineseZodiac.java)
   3. (For the Find Leap Year program, see "FindLeapYear.java".) [find-leap-year](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FindLeapYear.java)
 - Week 3
-  1. (Fo the greater and lesser number calculator program, see "GreaterAndLesserNumber.java".) [greater-and-lesser-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java)
+  1. (For the MIN And MAX Calculator program, see "GreaterAndLesserNumber.java".) [min-and-max-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
