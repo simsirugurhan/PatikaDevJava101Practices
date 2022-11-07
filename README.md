@@ -1,5 +1,5 @@
 # PatikaDevJava101Practices
-This folder created for Patika.dev Java101 practices.
+This folder created for Patika.dev Java101 practices. https://app.patika.dev/
 --- 
 (If you came here from Ebebek Java & Sap & Qa Spartacus Practium by Patika.dev;)
 - Week 1
