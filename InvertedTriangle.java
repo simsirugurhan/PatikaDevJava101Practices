@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class InvertedTriangle {
 
 	public static void main(String[] args) {
-		// Java ile basamak sayısının kullanıcıdan alınan ve döngüler kullanılarak,
-		// yıldızlar(*) ile ekrana ters üçgen çizen programı yazın.
+		// Java ile basamak sayÃ½sÃ½nÃ½n kullanÃ½cÃ½dan alÃ½nan ve dÃ¶ngÃ¼ler kullanÃ½larak,
+		// yÃ½ldÃ½zlar(*) ile ekrana ters Ã¼Ã§gen Ã§izen programÃ½ yazÃ½n.
 
 		int number; // variable of number
 
 		Scanner scan = new Scanner(System.in); // created scanner
 
-		System.out.print("Basama sayısı giriniz: "); // input number
+		System.out.print("Basamak sayÃ½sÃ½ giriniz: "); // input number
 		number = scan.nextInt(); // number assigned to the variable
 
 		// loops
