@@ -3,17 +3,17 @@ package averageNotes;
 import java.util.Scanner;
 
 public class PowerCalculator {
-	// Java dilinde, taban ve üs değerleri kullanıcıdan alınan üs alma işlemini
-	// "Recursive" metot kullanarak yapan programı yazınız.
-	static int result = 1;
+	// Java dilinde, taban ve Ã¼s deÃ°erleri kullanÃ½cÃ½dan alÃ½nan Ã¼s alma iÃ¾lemini
+	// "Recursive" metot kullanarak yapan programÃ½ yazÃ½nÃ½z.
+	static int result = 1; // variable statick result number
 	static int power(int base, int exponent) {
-		
+		//control
 		if (exponent == 0){
             return 1;
         }
-
+	//calculating
         result = result * base;
-        power(base, exponent - 1);
+        power(base, exponent - 1); //recursive
         
 		return result;
 	}
@@ -24,10 +24,10 @@ public class PowerCalculator {
 
 		Scanner scan = new Scanner(System.in); // scanner created
 
-		System.out.print("Taban değeri giriniz :"); // input base number
+		System.out.print("Taban deÃ°eri giriniz :"); // input base number
 		base = scan.nextInt(); // base number assigned to variable
-		System.out.print("Üs değeri giriniz :"); // input exponent number
+		System.out.print("Ãœs deÃ°eri giriniz :"); // input exponent number
 		exponent = scan.nextInt(); // exponent number assigned to variable
-		System.out.println("Sonuç: " + power(base, exponent));
+		System.out.println("SonuÃ§: " + power(base, exponent)); //printed
 	}
 }
