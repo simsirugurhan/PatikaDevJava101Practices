@@ -17,6 +17,7 @@ This folder created for Patika.dev Java101 practices. https://app.patika.dev/
   5. (For the Fibonacci Sequence Calculator program, see "FibonacciSequence.java".) [fibonacci-sequence](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FibonacciSequence.java)
   6. (For the Exponent Calculator program with recursive methods, see "PowerCalculator.java".) [exponent-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PowerCalculator.java)
   7. (For the Prime Number Calculator program with recursive methods, see "PrimeNumberCalculator.java".) [prime-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberCalculator.java)
+  8. (For the Creating Methods by Figure program with recursive methods, see "CreateMethodFigure.java".) [create methods by figure](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CreateMethodFigure.java)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
@@ -33,4 +34,5 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
   4. 1-100 Arasındaki Asal SAyıları Hesaplama programı için "PrimeNumbers.java" bakınız. [1-100 arası asal sayılar](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberOneToHundred.java)
   5. Fibonacci Serisi Hesaplama programı için "FibonacciSequence.java" bakınız. [fibonacci serisi](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FibonacciSequence.java)
   6. Recursive metotlar ile Üslü Sayı Hesaplama programı için "PowerCalculator.java" bakınız. [üslü sayı hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PowerCalculator.java)
-  7. Recursive metotlar ile Asal Sayı Bulma programı içi "PrimeNumberCalculator.java" bakınız. [asal sayı bulma](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberCalculator.java)
+  7. Recursive metotlar ile Asal Sayı Bulma programı için "PrimeNumberCalculator.java" bakınız. [asal sayı bulma](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberCalculator.java)
+  8. Recursive metotlar ile Desene göre Metot Oluşturma programı için "CreateMethodFigure.java" bakınız. [desene göre metot oluşturma](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CreateMethodFigure.java)
