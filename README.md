@@ -13,6 +13,7 @@ This folder created for Patika.dev Java101 practices. https://app.patika.dev/
   1. (For the MIN And MAX Calculator program, see "GreaterAndLesserNumber.java".) [min-and-max-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java)
   2. (For the Perfect Number Calculator program, see "PerfectNumber.java".) [perfect-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PerfectNumber.java)
   3. (For the Inverted Triangle program, see "InvertedTriangle.java".) [inverted-triangle](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/InvertedTriangle.java)
+  4. (For the Prime Numbers From 1 To 100 Calculator program, see "PrimeNumbers.java") [1to100-prime-numbers](link)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
@@ -26,4 +27,5 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
   1. En Büyük Ve En Küçük Sayı Hesaplama programı için "GreaterAndLesserNumber.java" bakınız. [en büyük ve en küçük sayıyı hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/GreaterAndLesserNumber.java) 
   2. Mükemmel Sayı Hesaplama programı için "PerfectNumber.java" bakınız. [mükemmel sayı hesaplama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PerfectNumber.java)
   3. Ters Üçgen programı için "InvertedTriangle.java" bakınız. [ters üçgen](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/InvertedTriangle.java)
+  4. 1-100 Arasındaki Asal SAyıları Hesaplama programı için "PrimeNumbers.java" bakınız. [1-100 arası asal sayılar](link)
  
