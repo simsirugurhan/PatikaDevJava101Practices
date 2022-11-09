@@ -6,23 +6,27 @@ import java.util.Scanner;
 public class SortingSmallestToLargest {
 
 	public static void main(String[] args) {
-		// Java dilinde, dizideki elemanlarý küçükten büyüðe sýralayan programý yazýnýz.
-		// Dizinin boyutunu ve dizinin elemanlarýný kullanýcýdan alýnýz.
-		int size, value;
+		// Java dilinde, dizideki elemanlarÃ½ kÃ¼Ã§Ã¼kten bÃ¼yÃ¼Ã°e sÃ½ralayan programÃ½ yazÃ½nÃ½z.
+		// Dizinin boyutunu ve dizinin elemanlarÃ½nÃ½ kullanÃ½cÃ½dan alÃ½nÃ½z.
+		
+		int size, value; //variables of list size and values
 
-		Scanner scan = new Scanner(System.in);
-		System.out.print("Eleman sayýsý giriniz: ");
-		size = scan.nextInt();
+		Scanner scan = new Scanner(System.in);  // scanner created
+		System.out.print("Eleman sayÃ½sÃ½ giriniz: "); //input size of list
+		size = scan.nextInt(); // size assigned to variable
 
-		if (size > 0) {
-			int[] arr = new int[size];
+		if (size > 0) { // size must be greater than 0
+			int[] arr = new int[size]; // array created
+			//loop for input values
 			for (int i = 0; i < size; i++) {
-				System.out.printf((i + 1) + ". elemaný giriniz: ");
-				arr[i] = scan.nextInt();
+				System.out.printf((i + 1) + ". elemanÃ½ giriniz: "); //input value
+				arr[i] = scan.nextInt(); // value assigned to array's index
 			}
-
+			
+			//sorting loop
 			for (int i = 0; i < size; i++) {
 				for (int j = i + 1; j < size; j++) {
+					//control
 					if (arr[i] > arr[j]) {
 						value = arr[i];
 						arr[i] = arr[j];
@@ -31,11 +35,11 @@ public class SortingSmallestToLargest {
 				}
 			}
 
-			System.out.println("Dizi: " + Arrays.toString(arr));
+			System.out.println("Dizi: " + Arrays.toString(arr)); //printed
 		}
 
 		else {
-			System.out.print("Doðru deðer giriniz!");
+			System.out.print("DoÃ°ru deÃ°er giriniz!"); //error message
 		}
 
 	}
