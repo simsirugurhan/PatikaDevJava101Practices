@@ -21,6 +21,7 @@ This folder created for Patika.dev Java101 practices. https://app.patika.dev/
 - Week 4
   2. (For the Sorting Smallest to Largest values in Array program, see "SortingSmallestToLargest.java".) [sorting-smallest-to-largest](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
   3. (For the Calculate Frequency of Elements in Array program, see "FrequencyElements.java".) [frequency-elements-array](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FrequencyElements.java)
+  4. (For the Calculate Transpose Matrix program, see "TransposeMatrix.java".) [transpose-matrix](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/TransposeMatrix.java)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
@@ -42,3 +43,4 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
 - Hafta 4
   2. Dizideki Elemanları Küçükten Büyüğe Sıralama programı için "SortingSmallestToLargest.java" bakınız. [dizidekileri büyükten küçüğe sıralama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
   3. Dizideki Elemanların Frekanslarını hesaplama programı için "FrequencyElements.java" bakınız. [dizideki elemanlarn frekansı](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FrequencyElements.java)
+  4. Matris Transpozu hesaplama programı için "TransposeMatrix.java" bakınız. [matris tranpozu](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/TransposeMatrix.java)
