@@ -19,7 +19,8 @@ This folder created for Patika.dev Java101 practices. https://app.patika.dev/
   7. (For the Prime Number Calculator program with recursive methods, see "PrimeNumberCalculator.java".) [prime-number-calculator](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberCalculator.java)
   8. (For the Creating Methods by Figure program with recursive methods, see "CreateMethodFigure.java".) [create-methods-by-figure](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CreateMethodFigure.java)
 - Week 4
-  1. (For the Sorting Smallest to Largest values in Array program, see "SortingSmallestToLargest.java".) [sorting-smallest-to-largest](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
+  2. (For the Sorting Smallest to Largest values in Array program, see "SortingSmallestToLargest.java".) [sorting-smallest-to-largest](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
+  3. (For the Calculate Frequency of Elements in Array program, see "FrequencyElements.java".) [frequency-elements-array](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FrequencyElements.java)
 ---
 Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium için geldiyseniz;
 - Hafta 1
@@ -39,4 +40,5 @@ Eğer buraya Patika.dev tarafından Ebebek Java & Sap & Qa Spartacus Practium i�
   7. Recursive metotlar ile Asal Sayı Bulma programı için "PrimeNumberCalculator.java" bakınız. [asal sayı bulma](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/PrimeNumberCalculator.java)
   8. Recursive metotlar ile Desene göre Metot Oluşturma programı için "CreateMethodFigure.java" bakınız. [desene göre metot oluşturma](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/CreateMethodFigure.java)
 - Hafta 4
-  1. Dizideki Elemanları Küçükten Büyüğe Sıralama programı için "SortingSmallestToLargest.java" bakınız. [dizidekileri büyükten küçüğe sıralama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
+  2. Dizideki Elemanları Küçükten Büyüğe Sıralama programı için "SortingSmallestToLargest.java" bakınız. [dizidekileri büyükten küçüğe sıralama](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/SortingSmallestToLargest.java)
+  3. Dizideki Elemanların Frekanslarını hesaplama programı için "FrequencyElements.java" bakınız. [dizideki elemanlarn frekansı](https://github.com/simsirugurhan/PatikaDevJava101Practices/blob/main/FrequencyElements.java)
