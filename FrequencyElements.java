@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class FrequencyElements {
 
 	public static void main(String[] args) {
-
+		//Java dilinde, dizideki elemanların kaç kez tekrar edildiğini yani frekanslarını bulan programı yazınız.
+		
 		int[] array = { 10, 20, 20, 10, 10, 20, 5, 20 }; // variable of our list
 		int[] frequency = new int[array.length]; // variable of frequency of elements
 		
@@ -31,11 +32,11 @@ public class FrequencyElements {
 			}
 		}
 
-		System.out.println("Tekrar Say�lar�");
+		System.out.println("Tekrar Sayýlarý");
 		//loop for printing
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] != 0) //repeat controller
-				System.out.println(array[i] + " say�s� " + frequency[i] + " kere tekrar edildi."); // printed
+				System.out.println(array[i] + " sayýsý " + frequency[i] + " kere tekrar edildi."); // printed
 		}
 
 	}
